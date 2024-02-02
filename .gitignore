@@ -1,0 +1,8 @@
+# for Mac
+.DS_Store
+
+# for vscode
+.vscode/
+
+# 出力フォルダ
+dist/
