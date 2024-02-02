@@ -1,0 +1,15 @@
+= AsciiDoctor設計書サンプル
+:scripts: cjk
+:pdf-theme: default-with-font-fallbacks
+:icons: font
+:toc:
+
+== 基本設計書
+基本設計書のサンプルです
+
+include::chapter/01.BasicDesign.adoc[leveloffset=+1]
+
+== 詳細設計書
+詳細設計書のサンプルです
+
+include::chapter/02.DetailedDesign.adoc[leveloffset=+1]
