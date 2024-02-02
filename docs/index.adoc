@@ -2,7 +2,8 @@
 :scripts: cjk
 :pdf-theme: default-with-font-fallbacks
 :icons: font
-:toc:
+:toc: left
+:toc-title: 目次
 
 == 基本設計書
 基本設計書のサンプルです
