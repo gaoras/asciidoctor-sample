@@ -1,0 +1,40 @@
+= AsciiDoctorサンプル
+:scripts: cjk
+:pdf-theme: default-with-font-fallbacks
+:icons: font
+
+:toc:
+
+== 概要
+
+AsciiDoctorでソフトウェア仕様書を作成するためのサンプルプロジェクトです。
+
+== 使い方
+
+=== 前提条件
+
+Rubyのインストール::
+RubyInstallerのlink:https://rubyinstaller.org[公式サイト]
+からインストーラーをダウンロードしてイストールしてください
+
+asciidoctorのインストール::
+以下のコマンドを実行し、asciidoctorをインストールしてください
+
+ gem install asciidoctor
+ 
+
+asciidoctor-pdfのインストール::
+以下のコマンドを実行し、asciidoctor-pdfをインストールしてください
+
+ gem install asciidoctor-pdf
+
+=== ファイル出力方法
+srcフォルダでmakeコマンドを使用してください
+
+* pdfの場合
+
+ make pdf
+
+* htmlの場合
+
+ make html
