@@ -2,7 +2,6 @@
 :scripts: cjk
 :pdf-theme: default-with-font-fallbacks
 :icons: font
-
 :toc:
 
 == 概要
